@@ -31,7 +31,7 @@
                     <Icon:PackIconMaterial Kind="Menu" Width="15" Height="15" />
                 </Button>
 
-                <Border>
+                <Border Grid.Row="1" Background="#623ED0" CornerRadius="0 50 0 30">
                     
                 </Border>
 
