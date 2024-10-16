@@ -14,6 +14,8 @@
     </Window.Resources>
 
     <Border>
-        
+        <Grid>
+            
+        </Grid>
     </Border>
 </Window>
