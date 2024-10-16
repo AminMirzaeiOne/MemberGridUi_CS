@@ -111,6 +111,19 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
+
+                <!--Search Textbox-->
+                <Grid Width="300" HorizontalAlignment="Left">
+                    <TextBlock Margin="20 0" VerticalAlignment="Center" Foreground="#B0B9C6" IsHitTestVisible="False"
+           Panel.ZIndex="1" Text="Search here ..."
+           Visibility="{Binding ElementName=textBoxSearch, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
+
+                    <TextBox Name="textBoxSearch" Style="{StaticResource searchTextbox}"/>
+
+                    <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center" Margin="0 0 15 0" Foreground="#B0B9C6" HorizontalAlignment="Right" />
+                </Grid>
+
+                
             </Grid>
 
         </Grid>
