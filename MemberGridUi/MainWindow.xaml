@@ -36,7 +36,7 @@
                     <DockPanel>
                         <!--Menu Logo-->
                         <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100" DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
-                            <Ellipse>
+                            <Ellipse ToolTip="Amin Mirzaei (aminmirzaeione)">
                                 <Ellipse.Fill>
                                     <ImageBrush ImageSource="/Images/p1.png"/>
                                 </Ellipse.Fill>
