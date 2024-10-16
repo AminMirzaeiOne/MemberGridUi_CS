@@ -153,6 +153,13 @@
 
                 <TextBlock Text="Filter by" Grid.Row="4" FontSize="13" FontWeight="SemiBold" Margin="0 0 215 0" Foreground="#121518" HorizontalAlignment="Right" VerticalAlignment="Center"/>
 
+                <Grid Width="200" HorizontalAlignment="Right" Grid.Row="4">
+                    <TextBlock Margin="15 0" VerticalAlignment="Center" Foreground="#B0B9C6" IsHitTestVisible="False"
+           Panel.ZIndex="1" Text="Search in Members ..."
+           Visibility="{Binding ElementName=textBoxFilter, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
+
+                    <TextBox Name="textBoxFilter" Style="{StaticResource filterTextBox}"/>
+                </Grid>
 
             </Grid>
 
