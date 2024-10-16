@@ -128,6 +128,10 @@
                     <Icon:PackIconMaterial Kind="Cog"/>
                 </Button>
 
+                <Button Style="{StaticResource topButton}" Margin="0 0 55 0">
+                    <Icon:PackIconMaterial Kind="Bell"/>
+                </Button>
+
 
             </Grid>
 
