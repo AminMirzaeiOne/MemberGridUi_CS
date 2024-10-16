@@ -149,6 +149,9 @@
                     <Button Style="{StaticResource tabButton}" Content="Archived"/>
                 </StackPanel>
 
+                <TextBlock Text="68 Club Staff" Grid.Row="4" FontSize="18" FontWeight="SemiBold" Foreground="#121518" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+
             </Grid>
 
         </Grid>
