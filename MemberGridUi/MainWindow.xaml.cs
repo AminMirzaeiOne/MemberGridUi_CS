@@ -25,6 +25,26 @@ namespace MemberGridUi
         ObservableCollection<Member> members = new ObservableCollection<Member>();
         private bool IsMaximize = false;
 
+        private void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ClickCount == 2)
+            {
+                if (IsMaximize)
+                {
+                    this.WindowState = WindowState.Normal;
+                    this.Width = 1080;
+                    this.Height = 720;
+
+                    IsMaximize = false;
+                }
+                else
+                {
+                    this.WindowState = WindowState.Maximized;
+
+                    IsMaximize = true;
+                }
+            }
+        }
 
         public MainWindow()
         {
