@@ -32,7 +32,9 @@
                 </Button>
 
                 <Border Grid.Row="1" Background="#623ED0" CornerRadius="0 50 0 30">
-                    
+                    <DockPanel>
+                        
+                    </DockPanel>
                 </Border>
 
             </Grid>
