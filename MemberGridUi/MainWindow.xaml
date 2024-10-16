@@ -31,6 +31,10 @@
                     <Icon:PackIconMaterial Kind="Menu" Width="15" Height="15" />
                 </Button>
 
+                <Border>
+                    
+                </Border>
+
             </Grid>
 
         </Grid>
