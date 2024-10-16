@@ -20,8 +20,9 @@ Custom data grid user interface design in WPF In the form of a management dashbo
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/d693e8ac-90ea-4308-b5ce-91a00fd6636c">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/ed66bdd0-bb34-4363-a426-b312523aa000">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/f9c5e694-f9d3-4f80-b92e-7fdf3214f2d4">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/6b78f6b9-3074-4dc4-a6bc-10c8589c87cd">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/73fe26d5-b1eb-4656-9183-beccea78b351">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/07e0e2b5-d30e-4bf3-9bb5-ff4acf9b8d68">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/41f3225f-e830-43dc-93b0-e8127691784e">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/b2d7b29b-5acc-4151-8171-cfa9e03e6d76">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/85249eff-1d88-4c0d-bd03-df99a283f5bf">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1da8cd34-e233-4ef6-8e1e-36456280e8e2">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/538c8404-dd29-4f6d-b1c6-1ba62b05de14">
