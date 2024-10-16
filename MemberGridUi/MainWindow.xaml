@@ -102,7 +102,15 @@
             </Grid>
 
             <Grid Grid.Column="1" Margin="30 20 20 20">
-                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
             </Grid>
 
         </Grid>
