@@ -123,7 +123,12 @@
                     <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center" Margin="0 0 15 0" Foreground="#B0B9C6" HorizontalAlignment="Right" />
                 </Grid>
 
-                
+                <!--Top Buttons-->
+                <Button Style="{StaticResource topButton}" Margin="0 0 20 0" Background="#dcdcdc">
+                    <Icon:PackIconMaterial Kind="Cog"/>
+                </Button>
+
+
             </Grid>
 
         </Grid>
