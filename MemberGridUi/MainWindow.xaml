@@ -13,7 +13,7 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </Window.Resources>
 
-    <Grid>
+    <Border>
         
-    </Grid>
+    </Border>
 </Window>
