@@ -23,6 +23,7 @@ namespace MemberGridUi
     {
         BrushConverter converter = new BrushConverter();
         ObservableCollection<Member> members = new ObservableCollection<Member>();
+        private bool IsMaximize = false;
 
 
         public MainWindow()
