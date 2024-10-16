@@ -54,6 +54,13 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="menuButtonIcon" TargetType="Icon:PackIconMaterial">
+            <Setter Property="Margin" Value="20 2 20 0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Width" Value="15" />
+            <Setter Property="Height" Value="15" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
