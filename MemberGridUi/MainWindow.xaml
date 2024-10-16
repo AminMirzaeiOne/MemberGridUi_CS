@@ -15,7 +15,11 @@
 
     <Border>
         <Grid>
-            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
         </Grid>
     </Border>
 </Window>
