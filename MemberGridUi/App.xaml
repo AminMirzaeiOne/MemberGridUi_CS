@@ -54,7 +54,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#7B5CD6" />
+                    <Setter Property="Background" Value="DodgerBlue" />
                     <Setter Property="Foreground" Value="#ffffff" />
                 </Trigger>
             </Style.Triggers>
@@ -70,8 +70,8 @@
 
 
         <Style x:Key="searchTextbox" TargetType="TextBox">
-            <Setter Property="Background" Value="#ffffff" />
-            <Setter Property="Foreground" Value="#B0B9C6" />
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
             <Setter Property="BorderThickness" Value="0" />
             <Setter Property="FontSize" Value="12" />
             <Setter Property="Padding" Value="15 10" />
@@ -90,7 +90,7 @@
                                 <Setter Property="BorderBrush" TargetName="border" Value="#d9d9d9"/>
                             </Trigger>
                             <Trigger Property="IsKeyboardFocused" Value="true">
-                                <Setter Property="BorderBrush" TargetName="border" Value="#d9d9d9"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="Green"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -100,7 +100,7 @@
 
 
         <Style x:Key="addButton" TargetType="Button">
-            <Setter Property="Background" Value="#6741D9" />
+            <Setter Property="Background" Value="DodgerBlue" />
             <Setter Property="Foreground" Value="#ffffff" />
             <Setter Property="FocusVisualStyle" Value="{x:Null}" />
             <Setter Property="Height" Value="35" />
@@ -121,7 +121,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#7B5CD6" />
+                    <Setter Property="Background" Value="DodgerBlue" />
                     <Setter Property="Foreground" Value="#ffffff" />
                 </Trigger>
             </Style.Triggers>
@@ -149,7 +149,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="BorderBrush" Value="#784FF2" />
+                    <Setter Property="BorderBrush" Value="DodgerBlue" />
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -157,6 +157,8 @@
 
         <Style x:Key="filterTextBox" TargetType="TextBox" BasedOn="{StaticResource searchTextbox}">
             <Setter Property="Padding" Value="10 7" />
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type TextBoxBase}">
@@ -180,7 +182,7 @@
 
         <Style x:Key="pagingButton" TargetType="Button">
             <Setter Property="Background" Value="Transparent" />
-            <Setter Property="Foreground" Value="#6C7682" />
+            <Setter Property="Foreground" Value="White" />
             <Setter Property="FocusVisualStyle" Value="{x:Null}" />
             <Setter Property="Margin" Value="1 0" />
             <Setter Property="FontSize" Value="13" />
@@ -211,8 +213,8 @@
 
 
         <Style x:Key="gridEditButton" TargetType="Button">
-            <Setter Property="Background" Value="#512DA8" />
-            <Setter Property="BorderBrush" Value="#4A148C" />
+            <Setter Property="Background" Value="DodgerBlue" />
+            <Setter Property="BorderBrush" Value="DodgerBlue" />
             <Setter Property="Foreground" Value="#ffffff" />
             <Setter Property="FocusVisualStyle" Value="{x:Null}" />
             <Setter Property="VerticalAlignment" Value="Center" />
@@ -350,7 +352,8 @@
 
         <Style x:Key="DataGridRowStyle1" TargetType="{x:Type DataGridRow}">
             <Setter Property="Margin" Value="0 4 0 0" />
-            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
             <Setter Property="SnapsToDevicePixels" Value="true"/>
             <Setter Property="Validation.ErrorTemplate" Value="{x:Null}"/>
             <Setter Property="ValidationErrorTemplate">
@@ -383,12 +386,13 @@
             </Setter>
 
             <Style.Triggers>
+                <Trigger Property="Background" Value="Black"/>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#623ED0"/>
+                    <Setter Property="Background" Value="DodgerBlue"/>
                     <Setter Property="Foreground" Value="#ffffff"/>
                 </Trigger>
                 <Trigger Property="IsSelected" Value="True">
-                    <Setter Property="Background" Value="#623ED0"/>
+                    <Setter Property="Background" Value="DodgerBlue"/>
                     <Setter Property="Foreground" Value="#ffffff"/>
                 </Trigger>
                 <MultiTrigger>
