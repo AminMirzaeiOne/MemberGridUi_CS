@@ -91,7 +91,7 @@
 
                         
 
-                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15 0 15 20">
+                        <Button x:Name="btnExit" Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15 0 15 20" Click="btnExit_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Icon:PackIconMaterial Kind="ExitToApp" Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Exit Application"/>
