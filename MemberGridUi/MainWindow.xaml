@@ -13,13 +13,14 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </Window.Resources>
 
-    <Border>
+    <Border Background="Black">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+            <!--Left Menu-->
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -37,7 +38,7 @@
                         <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100" DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/Images/p1.jpg"/>
+                                    <ImageBrush ImageSource="/Images/p1.png"/>
                                 </Ellipse.Fill>
                             </Ellipse>
                         </Border>
@@ -95,12 +96,12 @@
                             </StackPanel>
                         </Button>
 
-
                     </DockPanel>
                 </Border>
 
             </Grid>
 
+            <!--Main Section-->
             <Grid Grid.Column="1" Margin="30 20 20 20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -115,8 +116,8 @@
                 <!--Search Textbox-->
                 <Grid Width="300" HorizontalAlignment="Left">
                     <TextBlock Margin="20 0" VerticalAlignment="Center" Foreground="#B0B9C6" IsHitTestVisible="False"
-           Panel.ZIndex="1" Text="Search here ..."
-           Visibility="{Binding ElementName=textBoxSearch, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
+                   Panel.ZIndex="1" Text="Search here ..."
+                   Visibility="{Binding ElementName=textBoxSearch, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
 
                     <TextBox Name="textBoxSearch" Style="{StaticResource searchTextbox}"/>
 
@@ -132,8 +133,10 @@
                     <Icon:PackIconMaterial Kind="Bell"/>
                 </Button>
 
+                <!--Page Title-->
                 <TextBlock Text="Members" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 20 0 0" Foreground="#121518" HorizontalAlignment="Left"/>
 
+                <!--Add Button-->
                 <Button Style="{StaticResource addButton}">
                     <StackPanel Orientation="Horizontal">
                         <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Margin="0 1 8 0" Width="11" Height="11"/>
@@ -141,26 +144,31 @@
                     </StackPanel>
                 </Button>
 
+                <!--Seprator-->
                 <Separator Height="1" Grid.Row="3" Background="#DAE2EA" Margin="0 -1 0 10"/>
 
+                <!--Tab buttons-->
                 <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0 10 0 0">
                     <Button Style="{StaticResource tabButton}" Content="Club staff" BorderBrush="#784FF2"/>
                     <Button Style="{StaticResource tabButton}" Content="Players"/>
                     <Button Style="{StaticResource tabButton}" Content="Archived"/>
                 </StackPanel>
 
+                <!--Counter Title-->
                 <TextBlock Text="68 Club Staff" Grid.Row="4" FontSize="18" FontWeight="SemiBold" Foreground="#121518" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
                 <TextBlock Text="Filter by" Grid.Row="4" FontSize="13" FontWeight="SemiBold" Margin="0 0 215 0" Foreground="#121518" HorizontalAlignment="Right" VerticalAlignment="Center"/>
 
+                <!--Filter Textbox-->
                 <Grid Width="200" HorizontalAlignment="Right" Grid.Row="4">
                     <TextBlock Margin="15 0" VerticalAlignment="Center" Foreground="#B0B9C6" IsHitTestVisible="False"
-           Panel.ZIndex="1" Text="Search in Members ..."
-           Visibility="{Binding ElementName=textBoxFilter, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
+                   Panel.ZIndex="1" Text="Search in Members ..."
+                   Visibility="{Binding ElementName=textBoxFilter, Path=Text.IsEmpty, Converter={StaticResource BoolToVis}}" />
 
                     <TextBox Name="textBoxFilter" Style="{StaticResource filterTextBox}"/>
                 </Grid>
 
+                <!--Members Data Grid-->
                 <DataGrid RowStyle="{DynamicResource DataGridRowStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" x:Name="membersDataGrid" Style="{DynamicResource DataGridStyle1}">
                     <DataGrid.Columns>
                         <DataGridCheckBoxColumn Header="C" CanUserResize="False" Width="auto" ElementStyle="{StaticResource CheckBoxStyle1}">
@@ -204,6 +212,7 @@
                     </DataGrid.Columns>
                 </DataGrid>
 
+                <!--Pagingation Section-->
                 <Border Grid.Row="6" HorizontalAlignment="Right" BorderBrush="#DEE4EC" BorderThickness="1" CornerRadius="5" Padding="5" Background="#ffffff" Margin="0 10 10 10">
                     <StackPanel Orientation="Horizontal">
                         <Button Style="{StaticResource pagingButton}">
@@ -227,8 +236,6 @@
                         </Button>
                     </StackPanel>
                 </Border>
-
-
 
             </Grid>
 
