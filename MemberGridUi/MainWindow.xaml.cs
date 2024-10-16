@@ -20,6 +20,8 @@ namespace MemberGridUi
     /// </summary>
     public partial class MainWindow : Window
     {
+        BrushConverter converter = new BrushConverter();
+
         public MainWindow()
         {
             InitializeComponent();
