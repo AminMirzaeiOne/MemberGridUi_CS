@@ -141,6 +141,8 @@
                     </StackPanel>
                 </Button>
 
+                <Separator Height="1" Grid.Row="3" Background="#DAE2EA" Margin="0 -1 0 10"/>
+
 
             </Grid>
 
