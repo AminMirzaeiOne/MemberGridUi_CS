@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MemberGridUi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Height="720" Width="1080" WindowStartupLocation="CenterScreen" AllowsTransparency="True"
+        Background="Transparent" WindowStyle="None">
     <Grid>
         
     </Grid>
