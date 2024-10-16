@@ -132,6 +132,9 @@
                     <Icon:PackIconMaterial Kind="Bell"/>
                 </Button>
 
+                <TextBlock Text="Members" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 20 0 0" Foreground="#121518" HorizontalAlignment="Left"/>
+
+
 
             </Grid>
 
