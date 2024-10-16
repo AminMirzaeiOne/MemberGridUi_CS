@@ -101,7 +101,7 @@
 
             </Grid>
 
-            <Grid>
+            <Grid Grid.Column="1" Margin="30 20 20 20">
                 
             </Grid>
 
